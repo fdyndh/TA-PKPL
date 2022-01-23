@@ -1,0 +1,93 @@
+/* 
+
+CONTAINER
+
+*/
+
+.container {
+    margin: 100px 9vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* 
+
+BREADCRUMB
+
+*/
+
+.breadcrumb {
+    width: 100%;
+    height: 40px;
+    border-radius: 5px;
+    background-color: #eeeeee;
+}
+
+.breadcrumb ul {
+    margin: 0;
+    padding: 0;
+    color: var(--color-green);
+}
+
+.breadcrumb ul li {
+    display: inline-block;
+    padding: 10px 0px 10px 10px;
+}
+
+.breadcrumb ul li a {
+    text-decoration: none;
+    color: var(--color-green);
+}
+
+
+/*   PRESTASI SEKOLAH    */
+
+.container .list-prestasi p.tidak-ada {
+    text-align: center;
+    font-weight: 100;
+    font-size: 36px;
+    font-style: italic;
+}
+
+
+.container .list-prestasi {
+    width: 100%;
+    margin-top: 30px;
+}
+
+.list-prestasi .card-prestasi {
+    width: 100%;
+    height: 300px;
+    margin-bottom: 30px;
+    display: flex;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    text-decoration: none;
+}
+
+.card-prestasi .card-body h2 {
+    margin: 20px 0;
+}
+
+.list-prestasi .card-prestasi:hover h2 {
+    color: orange;
+}
+
+.list-prestasi .card-prestasi .card-body {
+    margin: 20px;
+}
+
+.list-prestasi .card-prestasi span {
+    margin-right: 50px;
+    font-size: 14px;
+    color: var(--color-grey);
+}
+
+.list-prestasi .card-prestasi i {
+    margin-right: 10px;
+    font-size: 14px;
+}
+
+.card-prestasi .card-body p {
+    margin: 20px 0;
+}

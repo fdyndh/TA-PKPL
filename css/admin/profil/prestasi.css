@@ -1,0 +1,227 @@
+/* RESPONSIVE DESKTOP */
+
+@media screen and (min-width: 1024px) {
+
+    .ck-voice-label {
+        display: none !important;
+    }
+
+    /* SECTION */
+    section {
+        margin-top: 1.5rem;
+        padding: 2rem;
+        background-color: #eeeeee;
+        border-radius: 5px;
+    }
+
+    .btn-add {
+        margin-bottom: 10px;
+    }
+
+    /* TABLE */
+    section table {
+        width: 100%;
+        padding: 10px;
+        border-collapse: collapse;
+    }
+
+    table,
+    th,
+    td {
+        border: 1px solid #ddd;
+    }
+
+
+    /* TABLE HEAD */
+    table th {
+        padding: 10px;
+        background-color: var(--color-blue);
+    }
+
+    table th:nth-child(1) {
+        width: 5%;
+    }
+
+    table th:nth-child(2) {
+        width: 20%;
+    }
+
+    table th:nth-child(3) {
+        width: 30%;
+    }
+
+    table th:nth-child(4) {
+        width: 20%;
+    }
+
+    table th:nth-child(5) {
+        width: 20%;
+    }
+
+
+    /* TABLE BODY */
+    tbody tr td {
+        padding: 5px;
+    }
+
+    tbody tr td:nth-child(1),
+    tbody tr td:nth-child(4) {
+        padding-left: 0;
+        text-align: center;
+    }
+
+    tbody tr td:nth-child(2) img {
+        width: 50%;
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+    }
+
+    .btn-edit,
+    .btn-delete {
+        padding-left: 8%;
+        padding-right: 8%;
+    }
+
+
+    /* MODAL BOX */
+    .modal {
+        width: 100%;
+        position: absolute;
+        top: 0;
+        background-color: rgba(0, 0, 0, 0.4);
+        z-index: 99;
+    }
+
+    /* MODAL CONTENT FOR ADD*/
+    .modal-form .modal-content {
+        width: 50%;
+        margin: 30px auto;
+        padding: 30px;
+        border-radius: 10px;
+        background-color: var(--color-white);
+    }
+
+    .modal-form .modal-content .btn-close {
+        padding: 0;
+        background-color: var(--color-white);
+        border-width: 0;
+        border-radius: 50%;
+        position: absolute;
+        right: 22%;
+        top: 10px;
+        cursor: pointer;
+    }
+
+    .modal-form .modal-content img {
+        width: 50%;
+        margin: 0 auto;
+        display: block;
+    }
+
+    .modal-form .modal-content label {
+        display: block;
+        font-size: 20px;
+        font-weight: 500;
+        padding: 20px 0 10px 0;
+    }
+
+    .modal-form .modal-content input {
+        width: 100%;
+        padding: 10px;
+        border-radius: 5px;
+        border-width: 1px;
+        box-sizing: border-box;
+    }
+
+    .modal-form .modal-content .date-loc {
+        display: flex;
+        gap: 30px;
+    }
+
+    .date #tanggal {
+        width: 100%;
+    }
+
+
+    .modal-form .modal-content #keterangan {
+        width: 100%;
+    }
+
+    .modal-form .modal-content .btn-add-data {
+        margin: 10px 0 0 auto;
+        display: block;
+        text-align: right;
+    }
+
+    .modal-form .modal-content .btn-edit-data {
+        padding: 10px 20px;
+        margin: 10px 0 0 auto;
+        display: block;
+        text-align: right;
+    }
+
+
+    /* MODAL CONTENT FOR VIEW*/
+    .modal-view {
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .modal-view .modal-content {
+        width: 80%;
+        margin: 30px auto;
+        padding: 30px;
+        border-radius: 10px;
+        background-color: var(--color-white);
+    }
+
+    .modal-view .modal-content .btn-close {
+        padding: 0;
+        background-color: var(--color-white);
+        border-width: 0;
+        border-radius: 50%;
+        position: absolute;
+        right: 7%;
+        top: 180px;
+        cursor: pointer;
+    }
+
+    .card-prestasi {
+        width: 90%;
+        height: 300px;
+        margin: 0 auto;
+        display: flex;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+        text-decoration: none;
+    }
+
+    .card-prestasi .card-body {
+        margin: 20px;
+    }
+
+    .card-prestasi .card-body h2 {
+        margin: 20px 0;
+    }
+
+    .card-prestasi:hover h2 {
+        color: orange;
+    }
+
+    .card-prestasi span {
+        margin-right: 50px;
+        font-size: 14px;
+        color: var(--color-grey);
+    }
+
+    .card-prestasi i {
+        margin-right: 10px;
+        font-size: 14px;
+    }
+
+    .card-prestasi .card-body p {
+        margin: 20px 0;
+    }
+}

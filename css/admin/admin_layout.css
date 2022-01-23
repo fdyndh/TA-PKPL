@@ -1,0 +1,249 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+
+/* TEMPLATE */
+
+:root {
+    --color-white: #f6f5f5;
+    --color-green: #206a5d;
+    --color-black: #424642;
+    --color-grey: rgb(137, 135, 135);
+    --color-blue: #0D6EFD;
+    --color-red: #c72e35;
+}
+
+html,
+body {
+    margin: 0;
+    height: 0;
+    font-family: 'Roboto', sans-serif;
+    background-color: var(--color-white);
+}
+
+.title {
+    margin-top: 100px;
+    margin-bottom: 0;
+    font-weight: bold;
+    color: var(--color-green);
+}
+
+.text-grey {
+    color: var(--color-grey);
+}
+
+.text-green {
+    color: var(--color-green);
+}
+
+.text-black {
+    color: var(--color-black);
+}
+
+.text-white {
+    color: var(--color-white);
+}
+
+.text-blue {
+    color: var(--color-blue);
+}
+
+.text-red {
+    color: var(--color-red);
+}
+
+/*  CONTAINER   */
+
+.container {
+    margin-top: 1.5rem;
+    margin-right: 2vw;
+    margin-left: 18vw;
+    transition: margin-left 0.5s;
+}
+
+
+/*  BREADCRUMB  */
+
+.breadcrumb {
+    width: 100%;
+    height: 40px;
+    border-radius: 5px;
+    background-color: #eeeeee;
+}
+
+.breadcrumb ul {
+    margin: 0;
+    padding: 0;
+}
+
+.breadcrumb ul li {
+    display: inline-block;
+    padding: 10px 0px 10px 10px;
+}
+
+.breadcrumb ul li a {
+    text-decoration: none;
+}
+
+.breadcrumb ul li a:hover {
+    text-decoration: underline;
+}
+
+
+/* BUTTON TEMPLATE */
+.btn-add {
+    padding: 10px;
+    font-size: 1rem;
+    border: none;
+    border-radius: 5px;
+    background-color: var(--color-blue);
+    cursor: pointer;
+}
+
+.btn-add:hover {
+    background-color: #1664da;
+}
+
+.btn-edit {
+    padding: 10px;
+    font-size: 1rem;
+    border: none;
+    border-radius: 5px;
+    background-color: #20a9b0;
+    cursor: pointer;
+}
+
+.btn-edit:hover {
+    background-color: #1f9399;
+}
+
+.btn-view {
+    padding: 10px;
+    font-size: 1rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: #ffb037;
+}
+
+.btn-view:hover {
+    background-color: #eea538;
+}
+
+.btn-delete {
+    padding: 10px;
+    font-size: 1rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: #fb3640;
+}
+
+.btn-delete:hover {
+    background-color: #c72e35;
+}
+
+/* RESPONSIVE DESKTOP */
+
+@media screen and (min-width: 1024px) {
+
+    /* SIDEBAR */
+    .sidebar {
+        width: 250px;
+        height: 100%;
+        position: fixed;
+        background: var(--color-blue);
+        overflow-x: hidden;
+        transition: width 0.5s;
+        white-space: nowrap;
+    }
+
+    .sidebar h1 {
+        margin: 0 10% 80px 10%;
+        padding: 18px 0;
+        text-align: center;
+        border-bottom: 1px solid var(--color-white);
+        box-sizing: border-box;
+    }
+
+    .sidebar a {
+        /* margin-left: 10%; */
+        padding: 10px 10px 10px 10%;
+        display: block;
+        text-decoration: none;
+    }
+
+    .sidebar a:hover {
+        color: orange;
+        background-color: #0b5dd6;
+    }
+
+    /* DROPDOWN */
+
+    .btn-profil {
+        /* margin-left: 10%; */
+        padding: 10px 10px 10px 10%;
+        display: inline-block;
+        cursor: pointer;
+        vertical-align: middle;
+    }
+
+    .btn-profil:hover {
+        color: orange;
+    }
+
+    .dropdown:hover .dropdown-items {
+        display: block;
+    }
+
+    .dropdown-items {
+        padding-left: 20px;
+        display: none;
+        background-color: #0b5dd6;
+    }
+
+
+    /* NAVBAR */
+    nav {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        border: 1px solid var(--color-blue);
+        border-left: none;
+        border-right: none;
+    }
+
+    .menu-hamburger {
+        margin-left: 250px;
+        display: flex;
+        align-items: center;
+        transition: margin-left 0.5s;
+    }
+
+    .menu-hamburger button {
+        background: transparent;
+        border: transparent;
+        cursor: pointer;
+        padding: 24px;
+    }
+
+    .menu-hamburger h2 {
+        margin: 0;
+        display: inline-block;
+    }
+
+    nav .logout {
+        padding: 20px;
+        font-size: 20px;
+        font-weight: 500;
+        text-decoration: none;
+    }
+
+    nav .logout:hover {
+        color: orange;
+    }
+
+    nav .logout i {
+        padding-left: 5px;
+    }
+
+}

@@ -1,0 +1,42 @@
+/* RESPONSIVE DESKTOP */
+
+@media screen and (min-width: 1024px) {
+
+    section {
+        margin-top: 1.5rem;
+        padding: 2rem;
+        background-color: #eeeeee;
+        border-radius: 5px;
+    }
+
+    section label {
+        margin: 0 1rem 0 0;
+        font-size: 1.2rem;
+        font-weight: 500;
+    }
+
+    table {
+        width: 100%;
+    }
+
+    table tr td:nth-child(1) {
+        width: 15%;
+        padding-bottom: 1rem;
+    }
+
+    table tr td:nth-child(2) {
+        width: 80%;
+        padding-bottom: 1rem;
+    }
+
+    section input {
+        width: 100%;
+        padding: 5px;
+        border-radius: 5px;
+        border-width: 1px;
+    }
+
+    .btn-edit {
+        float: right;
+    }
+}

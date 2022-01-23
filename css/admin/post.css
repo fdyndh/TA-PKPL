@@ -1,0 +1,208 @@
+/* RESPONSIVE DESKTOP */
+
+@media screen and (min-width: 1024px) {
+
+    .ck-voice-label {
+        display: none !important;
+    }
+
+    /* SECTION */
+    section {
+        margin-top: 1.5rem;
+        padding: 2rem;
+        background-color: #eeeeee;
+        border-radius: 5px;
+    }
+
+    .btn-add {
+        margin-bottom: 10px;
+    }
+
+    /* TABLE */
+    section table {
+        width: 100%;
+        padding: 10px;
+        border-collapse: collapse;
+    }
+
+    table,
+    th,
+    td {
+        border: 1px solid #ddd;
+    }
+
+
+    /* TABLE HEAD */
+    table th {
+        padding: 10px;
+        background-color: var(--color-blue);
+    }
+
+    table th:nth-child(1) {
+        width: 10%;
+    }
+
+    table th:nth-child(2) {
+        width: 20%;
+    }
+
+    table th:nth-child(3) {
+        width: 30%;
+    }
+
+    table th:nth-child(4) {
+        width: 20%;
+    }
+
+    table th:nth-child(5) {
+        width: 20%;
+    }
+
+
+    /* TABLE BODY */
+    tbody tr td {
+        padding: 5px;
+    }
+
+    tbody tr td:nth-child(1),
+    tbody tr td:nth-child(4) {
+        padding-left: 0;
+        text-align: center;
+    }
+
+    tbody tr td:nth-child(2) img {
+        width: 50%;
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+    }
+
+    .btn-edit,
+    .btn-delete {
+        padding-left: 8%;
+        padding-right: 8%;
+    }
+
+
+    /* MODAL BOX */
+    .modal {
+        width: 100%;
+        position: absolute;
+        top: 0;
+        background-color: rgba(0, 0, 0, 0.4);
+        z-index: 99;
+    }
+
+    .modal .modal-content {
+        width: 50%;
+        margin: 30px auto;
+        padding: 30px;
+        border-radius: 10px;
+        background-color: var(--color-white);
+    }
+
+    .modal-content .btn-close {
+        padding: 0;
+        background-color: var(--color-white);
+        border-width: 0;
+        border-radius: 50%;
+        position: absolute;
+        right: 22%;
+        top: 10px;
+        cursor: pointer;
+    }
+
+    /* MODAL CONTENT FOR ADD*/
+    .modal-add .modal-content img {
+        width: 50%;
+        margin: 0 auto;
+        display: block;
+    }
+
+    .modal-add .modal-content label {
+        display: block;
+        font-size: 20px;
+        font-weight: 500;
+        padding: 20px 0 10px 0;
+    }
+
+    .modal-add .modal-content input {
+        width: 100%;
+        padding: 10px;
+        border-radius: 5px;
+        border-width: 1px;
+        box-sizing: border-box;
+    }
+
+    .modal-add .modal-content #tanggal {
+        width: 20%;
+    }
+
+    .modal-add .modal-content #editor {
+        width: 100%;
+    }
+
+    .modal-add .modal-content .btn-add-data {
+        margin: 10px 0 0 auto;
+        display: block;
+        text-align: right;
+    }
+
+    /* MODAL CONTENT FOR VIEW*/
+    .modal-view #tgl-view {
+        padding-bottom: 10px;
+        display: block;
+        font-size: 14px;
+        text-align: right;
+        border-bottom: 1px solid var(--color-black);
+    }
+
+    .modal-view .modal-content .date-kat {
+        display: flex;
+        gap: 30px;
+    }
+
+    .modal-view .modal-content label {
+        display: block;
+        font-size: 20px;
+        font-weight: 500;
+        padding: 20px 0 10px 0;
+    }
+
+
+    /* MODAL CONTENT FOR EDIT*/
+    .modal-edit .modal-content img {
+        width: 50%;
+        margin: 0 auto;
+        display: block;
+    }
+
+    .modal-edit .modal-content label {
+        display: block;
+        font-size: 20px;
+        font-weight: 500;
+        padding: 20px 0 10px 0;
+    }
+
+    .modal-edit .modal-content input {
+        width: 100%;
+        padding: 10px;
+        border-radius: 5px;
+        border-width: 1px;
+        box-sizing: border-box;
+    }
+
+    .modal-edit .modal-content #tgl-edit {
+        width: 20%;
+    }
+
+    .modal-edit .modal-content #editor {
+        width: 100%;
+    }
+
+    .modal-edit .modal-content .btn-edit-data {
+        margin: 10px 0 0 auto;
+        display: block;
+        text-align: right;
+    }
+}

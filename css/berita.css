@@ -1,0 +1,289 @@
+/*  CONTAINER   */
+
+.container {
+    margin: 100px 9vw;
+}
+
+
+/*  BREADCRUMB  */
+
+.breadcrumb {
+    width: 100%;
+    height: 40px;
+    border-radius: 5px;
+    background-color: #eeeeee;
+}
+
+.breadcrumb ul {
+    margin: 0;
+    padding: 0;
+    color: var(--color-green);
+}
+
+.breadcrumb ul li {
+    display: inline-block;
+    padding: 10px 0px 10px 10px;
+}
+
+.breadcrumb ul li a {
+    text-decoration: none;
+    color: var(--color-green);
+}
+
+.breadcrumb ul li a:hover {
+    text-decoration: underline;
+}
+
+
+/*  ROW BERITA  */
+
+.container .row-berita {
+    width: 100%;
+    margin-top: 30px;
+    display: flex;
+    gap: 50px;
+}
+
+
+/* COLOUMN KIRI */
+.col-kiri {}
+
+
+/*  PENGUMUMAN  */
+
+.pengumuman .title-pengumuman {
+    margin-bottom: 10px;
+    font-size: 20px;
+    font-weight: 500;
+    text-decoration: none;
+    color: var(--color-green);
+    display: block;
+}
+
+.pengumuman .box-pengumuman {
+    width: 250px;
+    padding: 20px;
+    border: 1px solid var(--color-green);
+    box-sizing: border-box;
+    border-radius: 5px;
+}
+
+.pengumuman .box-pengumuman a {
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+    display: block;
+    text-decoration: none;
+    border-bottom: 1px dashed var(--color-green);
+}
+
+.pengumuman .box-pengumuman a:hover {
+    color: orange;
+}
+
+.pengumuman .box-pengumuman .btn-pengumuman {
+    width: 10vw;
+    margin: 0 auto;
+    padding: 5px;
+    text-align: center;
+    color: var(--color-white);
+    background-color: var(--color-green);
+    border-radius: 5px;
+}
+
+.pengumuman .box-pengumuman .btn-pengumuman:hover {
+    color: orange;
+}
+
+
+/* GALERI  */
+
+.galeri {
+    margin-top: 50px;
+}
+
+.galeri .title-galeri {
+    margin-bottom: 10px;
+    display: block;
+    font-size: 20px;
+    font-weight: 500;
+    text-decoration: none;
+}
+
+.galeri .title-galeri:hover {
+    color: orange;
+}
+
+.galeri .box-galeri {
+    /* width: 300px; */
+    display: flex;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+}
+
+.galeri .box-galeri .frame {
+    width: 80px;
+    height: 80px;
+    margin: 0 5px 5px 0;
+}
+
+.galeri .box-galeri .frame img {
+    width: 100%;
+    height: 100%;
+}
+
+
+/* KONTAK  */
+
+.kontak {
+    margin-top: 50px;
+}
+
+.title-kontak {
+    font-size: 20px;
+    font-weight: 500;
+    color: var(--color-green);
+    text-decoration: none;
+    display: block;
+}
+
+.title-kontak:hover {
+    color: orange;
+}
+
+.kontak .icon {
+    margin-right: 5px;
+    margin-top: 10px;
+    display: inline-block;
+    background-color: var(--color-green);
+    color: var(--color-white);
+    border-radius: 50%;
+}
+
+.kontak .icon i {
+    padding: 10px
+}
+
+
+/*  COLOUMN TENGAH  */
+
+.col-tengah {
+    /* margin: 0px 50px; */
+}
+
+
+/* CARD BERITA  */
+
+.card-berita {
+    width: 600px;
+    margin-bottom: 25px;
+    padding-bottom: 25px;
+    border-bottom: 1px solid #e0e0e0;
+}
+
+.card-berita .gambar-berita {
+    width: 600px;
+    height: 400px;
+    margin-top: 30px;
+    display: block;
+    overflow: hidden;
+
+}
+
+.card-berita .gambar-berita img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.card-berita:hover .gambar-berita img {
+    transform: scale(1.2);
+    cursor: pointer;
+    transition: transform 0.5s;
+}
+
+.card-berita .judul-berita {
+    margin: 10px 0;
+    font-size: 20px;
+    font-weight: 500;
+    text-decoration: none;
+    color: var(--color-green);
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+
+.card-berita .judul-berita:hover {
+    color: orange;
+}
+
+.card-berita .isi-berita {
+    margin: 0;
+    font-weight: 300;
+    line-height: 1.4;
+    color: var(--color-black);
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+
+.card-berita .tgl-berita {
+    margin: 15px 0 0 0;
+    font-size: 14px;
+    color: var(--color-grey);
+}
+
+
+/*  COLOUMN KANAN   */
+
+.col-kanan {}
+
+
+/*  KALENDER AKADEMIK   */
+
+.box-kalender {
+    padding: 5px;
+}
+
+.title-kalender {
+    margin-bottom: 10px;
+    display: block;
+    font-size: 20px;
+    font-weight: 500;
+    text-decoration: none;
+}
+
+.box-kalender {
+    width: 250px;
+    padding: 20px;
+    border: 1px solid var(--color-green);
+    box-sizing: border-box;
+    border-radius: 10px;
+}
+
+.box-kalender .tgl {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+    text-decoration: none;
+}
+
+.tgl:hover i,
+.tgl:hover .keterangan p {
+    color: orange;
+}
+
+.box-kalender .tgl:last-child {
+    margin-bottom: 0;
+}
+
+.box-kalender .keterangan {
+    display: inline-block;
+}
+
+.box-kalender .keterangan p {
+    margin: 0 0 0 5px;
+    font-size: 14px;
+}

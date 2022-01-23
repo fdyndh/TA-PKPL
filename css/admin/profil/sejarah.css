@@ -1,0 +1,54 @@
+/* RESPONSIVE DESKTOP */
+
+@media screen and (min-width: 1024px) {
+
+    section {
+        margin-top: 1.5rem;
+        padding: 20px;
+        background-color: #eeeeee;
+        border-radius: 5px;
+    }
+
+    section label {
+        margin: 0;
+        display: block;
+        font-size: 1.5rem;
+        font-weight: 500;
+    }
+
+    section textarea {
+        width: 98%;
+        margin-top: 10px;
+        padding: 5px;
+        caret-color: var(--color-blue);
+        border: none;
+        border-radius: 5px;
+        font-family: "Tahoma", sans-serif;
+        line-height: 1.6;
+    }
+
+    section .visi {
+        margin-top: 1.5rem;
+    }
+
+    section .misi {
+        margin: 1.5rem 0 10px 0;
+    }
+
+    section input {
+        width: 98%;
+        margin-top: 10px;
+        padding: 5px;
+        border-radius: 5px;
+        border-width: 0;
+        font-size: 1rem;
+        caret-color: var(--color-blue);
+    }
+
+    .btn-edit {
+        width: 6%;
+        margin: 30px 0 0 auto;
+        display: block
+    }
+
+}

@@ -1,0 +1,77 @@
+/*   DESKTOP     */
+@media screen and (min-width: 1024px) {
+
+    /* SECTION */
+    section {
+        margin-top: 1.5rem;
+        display: flex;
+        gap: 1.5rem;
+    }
+
+    /* CARD */
+    .card {
+        width: 25%;
+        display: flex;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    }
+
+    .card-side {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        position: relative;
+    }
+
+    .card-side input:nth-child(1) {
+        margin-top: 1rem;
+        margin-bottom: 0.5rem;
+        font-size: 1.5rem;
+        font-weight: 600;
+    }
+
+    .card-side input {
+        width: 80%;
+        margin-left: 5px;
+        border: 0;
+        background-color: var(--color-white);
+        font-size: 16px;
+    }
+
+    .card-side .fa-edit {
+        padding: 1rem;
+        position: absolute;
+        bottom: 0;
+        right: 0;
+    }
+
+    .fa-user-alt {
+        padding: 10px;
+        background-color: orange;
+    }
+
+    /* MODAL BOX */
+    .modal-content {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .modal-content input {
+        width: 100%;
+        margin-bottom: 20px;
+        padding: 10px;
+        border-radius: 5px;
+        border-width: 1px;
+        box-sizing: border-box;
+    }
+
+    .modal-content img {
+        width: 20%;
+    }
+
+    .modal-content .btn-edit {
+        width: 10%;
+        margin: 20px 0 20px auto;
+    }
+}
